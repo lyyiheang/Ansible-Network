@@ -1,5 +1,5 @@
 ---
-- hosts: Access Switch
+- hosts: switches
   connection: local
   vars:
     cli:
