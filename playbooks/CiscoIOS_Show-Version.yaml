@@ -1,5 +1,5 @@
 ---
-- hosts: switches
+- hosts: Access Switch - IOS
   connection: local
   vars:
     cli:
