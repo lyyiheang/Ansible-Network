@@ -5,12 +5,7 @@
   - name: run show version on remote devices
     cisco.ios.ios_command:
      commands:
-     - show version       
-  - name: show run on remote devices
-    become: true
-    cisco.ios.ios_command:
-     commands: 
-     - show run
-     register: print_output
-
-  -debug: var=print_output.stdout_lines
+     - show version
+     register: output
+  - name: print Output
+    debug: var=output.stdout_lines
