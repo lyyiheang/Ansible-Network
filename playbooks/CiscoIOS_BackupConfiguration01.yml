@@ -6,5 +6,5 @@
     cisco.ios.ios_config:
      backup: true
      backup_options:
-      filename: "running-config-{{ timestamp.stdout }}"
+      filename: "running-config.config"
       dir_path: "/home/sysadmin/backup/"
