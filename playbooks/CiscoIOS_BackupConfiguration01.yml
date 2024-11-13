@@ -5,3 +5,4 @@
   - name: Backup Running Configuration
     cisco.ios.ios_config:
      backup: true
+     backup_path: /etc/
