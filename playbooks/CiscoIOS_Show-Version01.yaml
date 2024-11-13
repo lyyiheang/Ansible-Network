@@ -6,6 +6,3 @@
     cisco.ios.ios_command:
      commands:
      - show version
-     register: output
-  - name: print Output
-    debug: var=output.stdout_lines
