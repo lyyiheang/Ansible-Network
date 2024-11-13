@@ -1,4 +1,4 @@
-- name: cisco_sh_ver
+- name: cisco_backup_config
   hosts: switches
   gather_facts: true 
   tasks:
