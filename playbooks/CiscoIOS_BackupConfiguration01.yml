@@ -6,4 +6,4 @@
     cisco.ios.ios_config:
      backup: true
      backup_options:
-      dir_path: /etc/
+      dir_path: /home/sysadmin/backup/
