@@ -5,6 +5,6 @@
   - name: Backup Running Configuration
     cisco.ios.ios_config:
      backup: true
-     backup_options:
-      filename: "running-config.config"
-      dir_path: "/home/sysadmin/backup/"
+#     backup_options:
+ #     filename: "running-config.config"
+  #    dir_path: "/home/sysadmin/backup/"
